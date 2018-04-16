@@ -483,9 +483,24 @@ header.menu_fixed {
 	transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
 }
-#services .service_item:hover i {
+
+#services .service_item li i {
+	display:inline-block;
+	width:12px;
+	height:12px;
+	margin:0 4px 0 0;
+	font-size:12px;
+	line-height:12px;
+	color:#2d3134;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+}
+
+#services .service_item li:hover i {
 	position:relative;
 	z-index:-1;
+	color:#44bba4;
+
 	animation: factEffect 700ms ease;
 	-webkit-animation: factEffect 700ms ease;
 }
@@ -699,6 +714,11 @@ header.menu_fixed {
 	opacity:0.2;
 }
 
+.gallery_wrap h3{
+	margin: 12px 10px;
+	text-align: center;
+}
+
 
 
 
@@ -775,9 +795,36 @@ header.menu_fixed {
 
 
 
+/*-----------------------------------------------------------------------------------*/
+/*	partners
+/*-----------------------------------------------------------------------------------*/
+
+#partners{
+	padding-top: 20px;
+}
+
+.partners-img {
+	
+}
+
+.partners-img img{
+	width: 250px;
+	text-align: center;
+	border-radius: 10px
+}
 
 
+.partners-name {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #4b5053;
+}
 
+.partners-name:hover{
+    color: #44BBA4;
+
+}
 
 /*-----------------------------------------------------------------------------------*/
 /*	Widgets
@@ -785,38 +832,6 @@ header.menu_fixed {
 
 .widgets_clear {display:none;}
 
-
-
-/* Widget Twitter */
-.widget_twitter li {
-	position:relative;
-	padding:0 0 30px 30px;
-}
-.widget_twitter li:before {
-	content: "\f099";
-	position:absolute;
-	left:0;
-	top:0;
-	width:24px;
-	height:24px;
-	font-family: FontAwesome;
-	line-height:24px;
-	font-size:18px;
-	color:#fff;
-}
-.widget_twitter .tweet_text {
-	display:block;
-	padding:0 0 10px;
-}
-.widget_twitter .tweet_time {
-	display:block;
-}
-.widget_twitter .tweet_time a {
-	color:#44BBA4;
-}
-.widget_twitter .tweet_time a:hover {
-	color:#fff;
-}
 
 
 /* Widget Contact Inf */
@@ -919,29 +934,6 @@ header.menu_fixed {
 .latest_news_item span {
 	display:block;
 	color:#44BBA4;
-}
-
-
-/* Widget Flickr */
-.widget_flickr ul {
-	margin:0 -6px -6px 0;
-}
-.widget_flickr li {
-	overflow:hidden;
-	float:left;
-	width:81px;
-	height:71px;
-	margin:0 6px 6px 0;
-	background-color:#44BBA4;
-}
-.widget_flickr li a {display:block;}
-.widget_flickr li a img {
-	width:100%;
-	transition: all 0.3s ease-in-out;
-	-webkit-transition: all 0.3s ease-in-out;
-}
-.widget_flickr li a:hover img {
-	opacity:0.3;
 }
 
 
