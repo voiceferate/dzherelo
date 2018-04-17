@@ -719,6 +719,22 @@ header.menu_fixed {
 	text-align: center;
 }
 
+.gallery__item{
+	height: 300px;
+	margin-bottom: 15px;
+	overflow: hidden;
+	position: relative;
+}
+
+.gallery__item-caption{
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	width: 95%;
+	font-weight: 600;
+	font-size: 1.5em;
+	color: #fff;
+}
 
 
 
