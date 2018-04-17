@@ -1,6 +1,22 @@
 window.jQuery = window.$ = jQuery;
 
 
+jQuery(document).ready(function($) {
+  
+  $(document).on('click', '.gallery__img', function(e) {
+    console.dir(this)
+
+    // var obj = $(this).parrent();
+    // obj.html('<img src="loader.gif">');
+    
+    $( this ).attr('src', 'https://uploads.scratch.mit.edu/users/avatars/1693/5343.png');   
+    $( this ).attr('src', 'images/gallery/4.jpg');   
+
+  })
+
+});
+
+
 /*-----------------------------------------------------------------------------------*/
 /*	MENU
 /*-----------------------------------------------------------------------------------*/
