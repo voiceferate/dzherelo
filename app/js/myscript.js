@@ -132,14 +132,6 @@ jQuery(window).load(function() {
 });
 
 
-/*-----------------------------------------------------------------------------------*/
-/*	PRETTYPHOTO
-/*-----------------------------------------------------------------------------------*/
-jQuery(document).ready(function() {
-	jQuery("a[rel^='prettyPhoto']").prettyPhoto();
-});
-
-
 
 /*-----------------------------------------------------------------------------------*/
 /*	CONTACT FORM
@@ -166,6 +158,35 @@ jQuery(document).ready(function() {
 	});
 });
 
+// gallery
+
+$(document).ready(function() {
+	console.log('mpp')
+	$('.popup-gallery').magnificPopup({
+	    items: [
+	      {
+	        src: 'images/gallery/1.jpg',
+	        title: 'Peter & Paul fortress in SPB'
+	      },
+	      {
+	        src: 'images/gallery/2.jpg',
+	        title: 'Peter & Paul fortress in SPB'
+	      },
+	      {
+	        src: 'images/gallery/3.jpg',
+	        title: 'Peter & Paul fortress in SPB'
+	      },
+	      {
+	        src: 'images/gallery/4.jpg',
+	        title: 'Peter & Paul fortress in SPB'
+	      }
+	    ],
+	    gallery: {
+	      enabled: true
+	    },
+	    type: 'image' // this is a default type
+	});
+});
 
 
 
