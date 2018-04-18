@@ -161,31 +161,112 @@ jQuery(document).ready(function() {
 // gallery
 
 $(document).ready(function() {
-	console.log('mpp')
-	$('.popup-gallery').magnificPopup({
+
+	$('.excurs').magnificPopup({
 	    items: [
 	      {
-	        src: 'images/gallery/1.jpg',
+	        src: 'images/gallery/excurs_1.jpg',
 	        title: 'Peter & Paul fortress in SPB'
 	      },
 	      {
-	        src: 'images/gallery/2.jpg',
+	        src: 'images/gallery/excurs_2.jpg',
 	        title: 'Peter & Paul fortress in SPB'
 	      },
 	      {
-	        src: 'images/gallery/3.jpg',
+	        src: 'images/gallery/excurs_3.jpg',
 	        title: 'Peter & Paul fortress in SPB'
 	      },
 	      {
-	        src: 'images/gallery/4.jpg',
+	        src: 'images/gallery/excurs_4.jpg',
 	        title: 'Peter & Paul fortress in SPB'
-	      }
+	      },
+	      {
+	        src: 'images/gallery/excurs_5.jpg',
+	        title: 'Peter & Paul fortress in SPB'
+	      },
+	      {
+	        src: 'images/gallery/excurs_6.jpg',
+	        title: 'Peter & Paul fortress in SPB'
+	      },
+	      {
+	        src: 'images/gallery/excurs_7.jpg',
+	        title: 'Peter & Paul fortress in SPB'
+	      },
+	      {
+	        src: 'images/gallery/excurs_8.jpg',
+	        title: 'Peter & Paul fortress in SPB'
+	      },
+	      {
+	        src: 'images/gallery/excurs_9.jpg',
+	        title: 'Peter & Paul fortress in SPB'
+	      },
+	      {
+	        src: 'images/gallery/excurs_10.jpg',
+	        title: 'Peter & Paul fortress in SPB'
+	      },
+	      {
+	        src: 'images/gallery/excurs_11.jpg',
+	        title: 'Peter & Paul fortress in SPB'
+	      },
 	    ],
 	    gallery: {
 	      enabled: true
 	    },
 	    type: 'image' // this is a default type
 	});
+
+	$('.food-rest').magnificPopup({
+    items: [
+      {
+        src: 'images/gallery/food_rest_1.jpg',
+        title: 'Peter & Paul fortress in SPB'
+      },
+	      {
+        src: 'images/gallery/food_rest_2.jpg',
+        title: 'Peter & Paul fortress in SPB'
+      },
+      {
+        src: 'images/gallery/food_rest_3.jpg',
+        title: 'Peter & Paul fortress in SPB'
+      },
+      {
+        src: 'images/gallery/food_rest_4.jpg',
+        title: 'Peter & Paul fortress in SPB'
+      },
+      {
+        src: 'images/gallery/food_rest_5.jpg',
+        title: 'Peter & Paul fortress in SPB'
+      },
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is a default type
+});
+
+	$('.living').magnificPopup({
+    items: [
+      {
+        src: 'images/gallery/living_1.jpg',
+        title: 'Peter & Paul fortress in SPB'
+      },
+	      {
+        src: 'images/gallery/living_2.jpg',
+        title: 'Peter & Paul fortress in SPB'
+      },
+      {
+        src: 'images/gallery/living_3.jpg',
+        title: 'Peter & Paul fortress in SPB'
+      }
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is a default type
+});
+
+
+		
 });
 
 
