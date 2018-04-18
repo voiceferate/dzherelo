@@ -7,12 +7,20 @@ var browserSync = require('browser-sync');
 var concatCss	  = require('gulp-concat-css');
 var cssnano		  = require('gulp-cssnano');
 var rename		  = require('gulp-rename');
+var imagemin = require('gulp-imagemin');
 
+ 
+gulp.task('imagemin', () =>
+    gulp.src('app/images/**/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest('dist/images'))
+);
 
 var paths = {
   css:  ['app/css/*.css'],
   html: ['app/html/*.html', 'app/html/components/*.html'],
-  js:   ['app/js/*.js']
+  js:   ['app/js/*.js'],
+  img:  ['app/images/*']
 };
 
 

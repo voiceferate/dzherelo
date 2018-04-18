@@ -734,6 +734,7 @@ header.menu_fixed {
 .gallery__item-img {
 	transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
+	cursor: pointer;
 }
 
 .gallery__item-img-wrap:hover .gallery__item-img {

@@ -17,5 +17,8 @@
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^3.0.0",
     "gulp-watch": "^4.3.11"
+  },
+  "devDependencies": {
+    "gulp-imagemin": "^4.1.0"
   }
 }

@@ -165,48 +165,37 @@ $(document).ready(function() {
 	$('.excurs').magnificPopup({
 	    items: [
 	      {
-	        src: 'images/gallery/excurs_1.jpg',
-	        title: 'Peter & Paul fortress in SPB'
+	        src: 'images/gallery/excurs_1.jpg'
 	      },
 	      {
-	        src: 'images/gallery/excurs_2.jpg',
-	        title: 'Peter & Paul fortress in SPB'
+	        src: 'images/gallery/excurs_2.jpg'
 	      },
 	      {
-	        src: 'images/gallery/excurs_3.jpg',
-	        title: 'Peter & Paul fortress in SPB'
+	        src: 'images/gallery/excurs_3.jpg'
 	      },
 	      {
-	        src: 'images/gallery/excurs_4.jpg',
-	        title: 'Peter & Paul fortress in SPB'
+	        src: 'images/gallery/excurs_4.jpg'
 	      },
 	      {
-	        src: 'images/gallery/excurs_5.jpg',
-	        title: 'Peter & Paul fortress in SPB'
+	        src: 'images/gallery/excurs_5.jpg'
 	      },
 	      {
-	        src: 'images/gallery/excurs_6.jpg',
-	        title: 'Peter & Paul fortress in SPB'
+	        src: 'images/gallery/excurs_6.jpg'
 	      },
 	      {
-	        src: 'images/gallery/excurs_7.jpg',
-	        title: 'Peter & Paul fortress in SPB'
+	        src: 'images/gallery/excurs_7.jpg'
 	      },
 	      {
-	        src: 'images/gallery/excurs_8.jpg',
-	        title: 'Peter & Paul fortress in SPB'
+	        src: 'images/gallery/excurs_8.jpg'
 	      },
 	      {
-	        src: 'images/gallery/excurs_9.jpg',
-	        title: 'Peter & Paul fortress in SPB'
+	        src: 'images/gallery/excurs_9.jpg'
 	      },
 	      {
-	        src: 'images/gallery/excurs_10.jpg',
-	        title: 'Peter & Paul fortress in SPB'
+	        src: 'images/gallery/excurs_10.jpg'
 	      },
 	      {
-	        src: 'images/gallery/excurs_11.jpg',
-	        title: 'Peter & Paul fortress in SPB'
+	        src: 'images/gallery/excurs_11.jpg'
 	      },
 	    ],
 	    gallery: {
@@ -218,25 +207,35 @@ $(document).ready(function() {
 	$('.food-rest').magnificPopup({
     items: [
       {
-        src: 'images/gallery/food_rest_1.jpg',
-        title: 'Peter & Paul fortress in SPB'
+        src: 'images/gallery/food_rest_1.jpg'
       },
 	      {
-        src: 'images/gallery/food_rest_2.jpg',
-        title: 'Peter & Paul fortress in SPB'
+        src: 'images/gallery/food_rest_2.jpg'
       },
       {
-        src: 'images/gallery/food_rest_3.jpg',
-        title: 'Peter & Paul fortress in SPB'
+        src: 'images/gallery/food_rest_3.jpg'
       },
       {
-        src: 'images/gallery/food_rest_4.jpg',
-        title: 'Peter & Paul fortress in SPB'
+        src: 'images/gallery/food_rest_4.jpg'
       },
       {
-        src: 'images/gallery/food_rest_5.jpg',
-        title: 'Peter & Paul fortress in SPB'
+        src: 'images/gallery/food_rest_5.jpg'
       },
+      {
+        src: 'images/gallery/food_rest_6.jpg'
+      },
+        {
+        src: 'images/gallery/food_rest_7.jpg'
+      },
+      {
+        src: 'images/gallery/food_rest_8.jpg'
+      },
+      {
+        src: 'images/gallery/food_rest_9.jpg'
+      },
+      {
+        src: 'images/gallery/food_rest_10.jpg'
+      }
     ],
     gallery: {
       enabled: true
@@ -247,16 +246,25 @@ $(document).ready(function() {
 	$('.living').magnificPopup({
     items: [
       {
-        src: 'images/gallery/living_1.jpg',
-        title: 'Peter & Paul fortress in SPB'
+        src: 'images/gallery/living_1.jpg'
       },
 	      {
-        src: 'images/gallery/living_2.jpg',
-        title: 'Peter & Paul fortress in SPB'
+        src: 'images/gallery/living_2.jpg'
       },
       {
-        src: 'images/gallery/living_3.jpg',
-        title: 'Peter & Paul fortress in SPB'
+        src: 'images/gallery/living_3.jpg'
+      },
+      {
+        src: 'images/gallery/living_4.jpg'
+      },
+      {
+        src: 'images/gallery/living_5.jpg'
+      },
+      {
+        src: 'images/gallery/living_6.jpg'
+      },
+      {
+        src: 'images/gallery/living_7.jpg'
       }
     ],
     gallery: {
@@ -264,7 +272,29 @@ $(document).ready(function() {
     },
     type: 'image' // this is a default type
 });
-
+  $('.health').magnificPopup({
+    items: [
+      {
+        src: 'images/gallery/health_1.jpg'
+      },
+        {
+        src: 'images/gallery/health_2.jpg'
+      },
+      {
+        src: 'images/gallery/health_3.jpg'
+      },
+      {
+        src: 'images/gallery/health_4.jpg'
+      },
+      {
+        src: 'images/gallery/health_5.jpg'
+      }
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image' // this is a default type
+});
 
 		
 });
