@@ -41,7 +41,7 @@ gulp.task('fileincludeJs', function() {
       prefix: '@@',
       basepath: 'app/js'
     }))
-    // .pipe(uglify())
+    .pipe(uglify())
     .pipe(gulp.dest('dist/js/'))
     .pipe(browserSync.reload({stream: true}));
 });
