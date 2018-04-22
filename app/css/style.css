@@ -940,6 +940,12 @@ header.menu_fixed {
 	color:#44BBA4;
 }
 
+.social__header{
+	display: inline-block;
+	margin-top: 12px;
+    margin-left: 75px;
+}
+
 
 /* latest News */
 .latest_news_item {

@@ -87,6 +87,13 @@
 	#about .about_services {width:100%; display:block; margin:0 0 30px;}
 	
 	#gallery .gallery_img {width:100%; float:none;}
+
+	.social__header{
+		display: inline-block;
+		margin-top: 12px;
+		margin-left: 5px;
+		font-size: 10px;
+	}
 	
 
 	.top_slider_cap h1 {
